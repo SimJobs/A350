@@ -1,11 +1,18 @@
-﻿Build started 10/19/2014 2:04:16 PM.
+﻿Build started 10/19/2014 6:25:32 PM.
      1>Project "C:\Users\Mommy\Documents\GitHub\A350\A350Systems\A350Systems\A350Systems.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D A350SYSTEMS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FMC.cpp
-         FMC.cpp
-     1>c:\users\mommy\documents\github\a350\a350systems\a350systems\fmc.cpp(1): fatal error C1083: Cannot open include file: 'SimConnect.h': No such file or directory
-     1>Done Building Project "C:\Users\Mommy\Documents\GitHub\A350\A350Systems\A350Systems\A350Systems.vcxproj" (Build target(s)) -- FAILED.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mommy\Documents\GitHub\A350\A350Systems\Debug\A350Systems.dll" /INCREMENTAL /LIBPATH:"C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SimConnect.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"A350Systems.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mommy\Documents\GitHub\A350\A350Systems\Debug\A350Systems.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mommy\Documents\GitHub\A350\A350Systems\Debug\A350Systems.lib" /MACHINE:X86 /SAFESEH SimConnect.lib /DLL Debug\FMC.obj
+         Debug\Waypoint.obj
+         Microsoft (R) Incremental Linker Version 12.00.30501.0
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         "/OUT:C:\Users\Mommy\Documents\GitHub\A350\A350Systems\Debug\A350Systems.dll" /INCREMENTAL "/LIBPATH:C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SimConnect.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "/DEF:A350Systems.def" /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:C:\Users\Mommy\Documents\GitHub\A350\A350Systems\Debug\A350Systems.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\Users\Mommy\Documents\GitHub\A350\A350Systems\Debug\A350Systems.lib" /MACHINE:X86 /SAFESEH SimConnect.lib /DLL Debug\FMC.obj 
+         Debug\Waypoint.obj 
+     1>FMC.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library C:\Users\Mommy\Documents\GitHub\A350\A350Systems\Debug\A350Systems.lib and object C:\Users\Mommy\Documents\GitHub\A350\A350Systems\Debug\A350Systems.exp
+         A350Systems.vcxproj -> C:\Users\Mommy\Documents\GitHub\A350\A350Systems\Debug\A350Systems.dll
+     1>Done Building Project "C:\Users\Mommy\Documents\GitHub\A350\A350Systems\A350Systems\A350Systems.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.19
+Time Elapsed 00:00:01.52

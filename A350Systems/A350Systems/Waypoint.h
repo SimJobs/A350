@@ -25,24 +25,46 @@ namespace Backend
 		{
 			return longitude;
 		}
+		void setLongitude(float longitude)
+		{
+			this->longitude = longitude;
+		}
+
 		float getLatitude()
 		{
 			return latitude;
 		}
+		void setLatitude(float latitude)
+		{
+			this->latitude = latitude;
+		}
+
 		string getName()
 		{
 			return name;
 		}
+		void setName(string name)
+		{
+			this->name = name;
+		}
+
 		int getAltitude()
 		{
 			return altitude;
 		}
+		void setAltitude(int altitude)
+		{
+			this->altitude = altitude;
+		}
+
 		int getSpeed()
 		{
 			return speed;
 		}
-
-
+		void setSpeed(int speed)
+		{
+			this->speed = speed;
+		}
 
 	};
 }

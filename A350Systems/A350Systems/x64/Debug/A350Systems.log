@@ -1,0 +1,161 @@
+﻿Build started 10/19/2014 3:43:09 PM.
+     1>Project "C:\Users\Mommy\Documents\GitHub\A350\A350Systems\A350Systems\A350Systems.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D A350SYSTEMS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt FMC.cpp
+         FMC.cpp
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(30): error C2146: syntax error : missing ';' before identifier 'SIMCONNECT_OBJECT_ID'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(416): error C2065: 'MAX_PATH' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(450): error C2146: syntax error : missing ';' before identifier 'MissionGUID'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(450): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(451): error C2065: 'MAX_PATH' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(452): error C2065: 'MAX_PATH' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(453): error C2065: 'MAX_PATH' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(454): error C2065: 'MAX_PATH' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(505): error C2146: syntax error : missing ';' before identifier 'rgbData'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(505): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(525): error C2065: 'MAX_PATH' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(530): error C2146: syntax error : missing ';' before identifier 'guidInstanceId'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(530): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(669): error C2143: syntax error : missing ')' before '*'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(669): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(669): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(669): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(672): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(672): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(672): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(672): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(672): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(672): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(673): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(673): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(673): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(673): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(673): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(673): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(674): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(674): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(674): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(674): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(674): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(674): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(675): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(675): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(675): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(675): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(675): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(675): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(676): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(676): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(676): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(676): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(676): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(676): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(677): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(677): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(677): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(677): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(677): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(677): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(678): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(678): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(678): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(678): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(678): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(678): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(679): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(679): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(679): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(679): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(679): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(679): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(680): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(680): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(680): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(680): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(680): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(680): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(681): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(681): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(681): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(681): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(681): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(681): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(682): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(682): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(682): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(682): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(682): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(682): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(683): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(683): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(683): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(683): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(683): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(683): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(684): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(684): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(684): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(684): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(684): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(684): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(685): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(685): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(685): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(685): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(685): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(685): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(686): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(686): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(686): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(686): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(686): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(686): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(687): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(687): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(687): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(687): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(687): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(687): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(688): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(688): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(688): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(688): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(688): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(688): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(689): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(689): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(689): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(689): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(689): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(689): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(690): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(690): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(690): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(690): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(690): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(690): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(691): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(691): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(691): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(691): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(691): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(691): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(692): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(692): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(692): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(692): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(692): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(692): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(693): error C2143: syntax error : missing ';' before '__cdecl'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(693): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(693): error C2065: 'HANDLE' : undeclared identifier
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(693): error C2146: syntax error : missing ')' before identifier 'hSimConnect'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(693): warning C4229: anachronism used : modifiers on data are ignored
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(693): error C2059: syntax error : ')'
+     1>C:\Program Files (x86)\Microsoft Games\Microsoft Flight Simulator X SDK\SDK\Core Utilities Kit\SimConnect SDK\inc\SimConnect.h(693): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "C:\Users\Mommy\Documents\GitHub\A350\A350Systems\A350Systems\A350Systems.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20

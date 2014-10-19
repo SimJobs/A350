@@ -1,1 +1,2 @@
-#include <SimConnect.h>
+#include <Windows.h>
+#include "SimConnect.h"
