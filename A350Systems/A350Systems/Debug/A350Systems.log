@@ -1,0 +1,11 @@
+﻿Build started 10/19/2014 2:04:16 PM.
+     1>Project "C:\Users\Mommy\Documents\GitHub\A350\A350Systems\A350Systems\A350Systems.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D A350SYSTEMS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FMC.cpp
+         FMC.cpp
+     1>c:\users\mommy\documents\github\a350\a350systems\a350systems\fmc.cpp(1): fatal error C1083: Cannot open include file: 'SimConnect.h': No such file or directory
+     1>Done Building Project "C:\Users\Mommy\Documents\GitHub\A350\A350Systems\A350Systems\A350Systems.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.19
