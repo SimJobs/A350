@@ -2,19 +2,18 @@
 #define WAYPOINTPARSER_H
 #include "Waypoint.h"
 
-class WaypointParser
+static class WaypointParser
 {
-private:
-	bool isNatTrack(string);
-	bool isGlobalTrack(string); //custom code
-	bool isAirport(string); //query database
-	bool isIntersection(string); //query database
-
-	Waypoint natToWaypoint(string);
-	Waypoint globalTrackToWaypoint(string);
-	Waypoint queryPoint(string);
-
 public:
+	static bool isNatTrack(string);
+	static bool isGlobalTrack(string); //custom code
+	static bool isAirport(string); //query database
+	static bool isIntersection(string); //query database
+
+	static Waypoint natToWaypoint(string);
+	static Waypoint globalTrackToWaypoint(string);
+	static Waypoint queryPoint(string);
+
 	static Waypoint getWaypoint(string);
 };
 #endif

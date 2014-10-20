@@ -1,18 +1,20 @@
-﻿Build started 10/19/2014 6:50:16 PM.
+﻿Build started 10/19/2014 8:33:30 PM.
      1>Project "C:\Users\Mommy\Documents\GitHub\A350\TestingApp\TestingApp\TestingApp.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\A350Systems\A350Systems\Waypoint.cpp Main.cpp WaypointParser.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Waypoint.cpp WaypointParser.cpp
          WaypointParser.cpp
-         Main.cpp
+     1>c:\users\mommy\documents\github\a350\testingapp\testingapp\waypointparser.h(18): warning C4091: 'static ' : ignored on left of 'WaypointParser' when no variable is declared
          Waypoint.cpp
+         Main.cpp
+     1>c:\users\mommy\documents\github\a350\testingapp\testingapp\waypointparser.h(18): warning C4091: 'static ' : ignored on left of 'WaypointParser' when no variable is declared
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mommy\Documents\GitHub\A350\TestingApp\Debug\TestingApp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mommy\Documents\GitHub\A350\TestingApp\Debug\TestingApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mommy\Documents\GitHub\A350\TestingApp\Debug\TestingApp.lib" /MACHINE:X86 Debug\Waypoint.obj
-         Debug\Main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mommy\Documents\GitHub\A350\TestingApp\Debug\TestingApp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mommy\Documents\GitHub\A350\TestingApp\Debug\TestingApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mommy\Documents\GitHub\A350\TestingApp\Debug\TestingApp.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Waypoint.obj
          Debug\WaypointParser.obj
          TestingApp.vcxproj -> C:\Users\Mommy\Documents\GitHub\A350\TestingApp\Debug\TestingApp.exe
      1>Done Building Project "C:\Users\Mommy\Documents\GitHub\A350\TestingApp\TestingApp\TestingApp.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.38
+Time Elapsed 00:00:06.50

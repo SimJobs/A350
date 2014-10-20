@@ -17,6 +17,7 @@ private:
 	int altitude;
 	int speed;
 
+
 public:
 	Waypoint(float latitude, float longitude, string name, int altitude = 0, int speed = 0);
 
