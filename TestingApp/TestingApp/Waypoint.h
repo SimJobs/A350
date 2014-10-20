@@ -1,7 +1,7 @@
 #ifndef WAYPOINT_H
 #define WAYPOINT_H
 #include <string>
-
+#include <cstring>
 using namespace std;
 
 
@@ -9,8 +9,8 @@ struct Waypoint
 {
 private:
 	//location
-	float longitude;
-	float latitude;
+	string longitude;
+	string latitude;
 	//name
 	string name;
 	//data for waypoint
@@ -19,22 +19,22 @@ private:
 
 
 public:
-	Waypoint(float latitude, float longitude, string name, int altitude = 0, int speed = 0);
+	Waypoint(string latitude, string longitude, string name, int altitude = 0, int speed = 0);
 
-	float getLongitude()
+	string getLongitude()
 	{
 		return longitude;
 	}
-	void setLongitude(float longitude)
+	void setLongitude(string longitude)
 	{
 		this->longitude = longitude;
 	}
 
-	float getLatitude()
+	string getLatitude()
 	{
 		return latitude;
 	}
-	void setLatitude(float latitude)
+	void setLatitude(string latitude)
 	{
 		this->latitude = latitude;
 	}

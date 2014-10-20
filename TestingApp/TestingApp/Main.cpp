@@ -6,8 +6,9 @@ using namespace std;
 
 int main()
 {
-	cout << WaypointParser::isNatTrack("5320N");
+	Waypoint *x = WaypointParser::natToWaypoint("5230N");
 
+	cout << x->getLatitude() << endl;
 	_getch();
 	return 0;
 }
