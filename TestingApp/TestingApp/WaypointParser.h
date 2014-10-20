@@ -10,10 +10,10 @@ public:
 	static bool isAirport(string); //query database
 	static bool isIntersection(string); //query database
 
-	static Waypoint natToWaypoint(string);
-	static Waypoint globalTrackToWaypoint(string);
-	static Waypoint queryPoint(string);
+	static Waypoint *natToWaypoint(string);
+	static Waypoint *globalTrackToWaypoint(string);
+	static Waypoint *queryPoint(string);
 
-	static Waypoint getWaypoint(string);
+	static Waypoint *getWaypoint(string);
 };
 #endif
