@@ -37,23 +37,30 @@ bool WaypointParser::isGlobalTrack(string x)
 	return false;
 }
 
-Waypoint *WaypointParser::natToWaypoint(string x)
+Navaid *WaypointParser::natToWaypoint(string x)
 {
 	//example
 	//5320N
 	//01234
 	string lon = "N" + x.substr(0,2) + "* 00.00";
 	string lat = "W" + x.substr(2,2) + "0* 00.00";
-	return new Waypoint(lat, lon, x);
+	return new Navaid(lat, lon, x, WaypointType::INT);
 }
 
-Waypoint *WaypointParser::globalTrackToWaypoint(string x)
+Navaid *WaypointParser::globalTrackToWaypoint(string x)
 {
 	//example
 	//N53W200
 	//0123456
 	string lon = x.substr(0,3) + "* 00.00";
 	string lat = x.substr(3, 6) + "* 00.00";
-	return new Waypoint(lat, lon, x);
+	return new Navaid(lat, lon, x, WaypointType::INT);
 
+}
+
+Navaid *WaypointParser::queryAirport(string x)
+{
+
+
+	return NULL;
 }

@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-	Waypoint *x = WaypointParser::natToWaypoint("5230N");
+	
+	Navaid *x = WaypointParser::natToWaypoint("5230N");
 
 	cout << x->getLatitude() << endl;
 
@@ -15,6 +16,9 @@ int main()
 
 	delete x;
 	x = NULL;
+	
+
 	_getch();
+	
 	return 0;
 }

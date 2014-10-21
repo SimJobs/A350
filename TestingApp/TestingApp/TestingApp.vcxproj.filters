@@ -21,7 +21,7 @@
     <ClCompile Include="WaypointParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Waypoint.cpp">
+    <ClCompile Include="Navaid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -5,7 +5,19 @@
 
 using namespace std;
 
-struct Waypoint
+
+enum WaypointType
+{
+	VOR,
+	NDB,
+	INT,
+	AIRPORT,
+	SIDINT,
+	STARINT
+};
+
+
+struct Navaid
 {
 private:
 	//location
@@ -17,9 +29,13 @@ private:
 	int altitude;
 	int speed;
 
+	double freq;
+	WaypointType waypointType;
 
 public:
-	Waypoint(string latitude, string longitude, string name, int altitude = 0, int speed = 0);
+	//vor 108.0 to 117.95 MHz
+	Navaid();
+	Navaid(string latitude, string longitude, string name, WaypointType waypointType, int altitude = 0);
 	string getLongitude()
 	{
 		return longitude;
@@ -65,6 +81,47 @@ public:
 		this->speed = speed;
 	}
 
+};
+
+struct NDB : public Navaid
+{
+private:
+	double freq;
+	int speed;
+public:
+	//ndb 190 and 1750 kHz
+	NDB(string lat, string lon, string name, WaypointType type, int altitude, double freq = 190, int speed = 0);
+
+	double getFreq()
+	{
+		return freq;
+	}
+
+	void setFreq(double freq)
+	{
+		if( freq < 190 )
+		{
+			this->freq = 190;
+		}
+		else if( freq > 1750 )
+		{
+			this->freq = 1750;
+		}
+		else
+		{
+			this->freq = freq;
+		}
+	}
+
+	int getSpeed()
+	{
+		return speed;
+	}
+
+	void setSpeed(int speed)
+	{
+		this->speed = speed;
+	}
 };
 
 

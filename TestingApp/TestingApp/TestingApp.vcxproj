@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Waypoint.cpp" />
+    <ClCompile Include="Navaid.cpp" />
     <ClCompile Include="WaypointParser.cpp" />
   </ItemGroup>
   <ItemGroup>
