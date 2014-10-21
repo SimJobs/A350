@@ -2,8 +2,8 @@
 #define WAYPOINT_H
 #include <string>
 #include <cstring>
-using namespace std;
 
+using namespace std;
 
 struct Waypoint
 {
@@ -20,7 +20,6 @@ private:
 
 public:
 	Waypoint(string latitude, string longitude, string name, int altitude = 0, int speed = 0);
-
 	string getLongitude()
 	{
 		return longitude;
